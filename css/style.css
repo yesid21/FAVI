@@ -2248,3 +2248,29 @@ iframe {
   height: -webkit-fill-available !important;
   overflow: hidden !important;
 }
+
+.outer { 
+  position: relative;
+  width: 25%;
+  padding-bottom: 25%;
+}
+.inner {
+  position: absolute;
+  width: 10%;
+  height: 50%;
+}
+
+.flecha-down {
+  border-bottom:20px solid black; /* base flecha y color*/
+  border-left:22px solid transparent;
+  border-right:22px solid transparent;
+  line-height:0px;
+}
+@media (min-width: 900px) {
+  .flecha-down {
+    border-bottom:20px solid black; /* base flecha y color*/
+    border-left:34px solid transparent;
+    border-right:34px solid transparent;
+    line-height:0px;
+  }
+}
